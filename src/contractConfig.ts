@@ -1,18 +1,18 @@
 export const mainnetContractConfig = [
   {
-    "CONTRACT_VERSION": "V2",
-    "CORE_CONTRACT_ADDRESS": "0xa319c382a702682129fcbf55d514e61a16f97f9c",
-    "MINT_CONTRACT_ADDRESS": "0x463b8ced7d22a55aa4a5d69ef6a54a08aa0feb93",
-    "MEDIA_URL": "https://plottables-mainnet.s3.amazonaws.com",
+    "CONTRACT_VERSION": "V3",
+    "CORE_CONTRACT_ADDRESS": "0xD00495689D5161C511882364E0C342e12Dcc5f08",
+    "MINT_CONTRACT_ADDRESS": "0xB64116A7D5D84fE9795DD022ea191217A2e32076",
+    "MEDIA_URL": "https://hodlers-collector-pass-mainnet.s3.amazonaws.com",
     "TOKEN_URL": "https://token.artblocks.io",
     "GENERATOR_URL": "https://generator.artblocks.io",
-    "EDIT_PROJECT_URL": "https://artblocks.io/engine/fullyonchain/projects"
+    "EDIT_PROJECT_URL": "https://artblocks.io/engine/flex/projects"
   },
   {
-    "CONTRACT_VERSION": "V2",
-    "CORE_CONTRACT_ADDRESS": "0x18de6097ce5b5b2724c9cae6ac519917f3f178c0",
-    "MINT_CONTRACT_ADDRESS": "0xe6e728361b7c824cba64cc1e5323efb7a5bb65da",
-    "MEDIA_URL": "https://plottables-flex-mainnet.s3.amazonaws.com",
+    "CONTRACT_VERSION": "V3",
+    "CORE_CONTRACT_ADDRESS": "0x9F79e46A309f804Aa4B7B53a1F72c69137427794",
+    "MINT_CONTRACT_ADDRESS": "0x489A6680cf268E5F7da783F7666c7CfC346DBEa3",
+    "MEDIA_URL": "https://hodlers-projects-mainnet.s3.amazonaws.com",
     "TOKEN_URL": "https://token.artblocks.io",
     "GENERATOR_URL": "https://generator.artblocks.io",
     "EDIT_PROJECT_URL": "https://artblocks.io/engine/flex/projects"
@@ -21,30 +21,13 @@ export const mainnetContractConfig = [
 
 export const testnetContractConfig = [
   {
-    "CONTRACT_VERSION": "V2",
-    "CORE_CONTRACT_ADDRESS": "0x9B0c67496Be8c6422fED0372be7a87707e3a6F09",
-    "MINT_CONTRACT_ADDRESS": "0x068C519D00A60CCD1830fabfe6eC428F2FDb4146",
-    "MEDIA_URL": "https://plottables-goerli.s3.amazonaws.com",
-    "TOKEN_URL": "https://token.staging.artblocks.io",
-    "GENERATOR_URL": "https://generator-staging-goerli.artblocks.io",
-    "EDIT_PROJECT_URL": "https://artist-staging.artblocks.io/engine/fullyonchain/projects"
-  },
-  {
-    "CONTRACT_VERSION": "V2",
-    "CORE_CONTRACT_ADDRESS": "0x48742D38a0809135EFd643c1150BfC13768C3907",
-    "MINT_CONTRACT_ADDRESS": "0x1DEC9E52f1320F7Deb29cBCd7B7d67f3dF785142",
-    "MEDIA_URL": "https://plottables-flex-goerli.s3.amazonaws.com",
+    "CONTRACT_VERSION": "V3",
+    "CORE_CONTRACT_ADDRESS": "0x41cc069871054c1efb4aa40af12f673ea2b6a1fc",
+    "MINT_CONTRACT_ADDRESS": "0x533D79A2669A22BAfeCdf1696aD6E738E4A2e07b",
+    "MEDIA_URL": "https://hodlers-projects-goerli.s3.amazonaws.com",
     "TOKEN_URL": "https://token.staging.artblocks.io",
     "GENERATOR_URL": "https://generator-staging-goerli.artblocks.io",
     "EDIT_PROJECT_URL": "https://artist-staging.artblocks.io/engine/flex/projects"
-  },
-  {
-    "CONTRACT_VERSION": "V3",
-    "CORE_CONTRACT_ADDRESS": "0xCEd5350f5a2Ba24946F92C08260931CFf65dc954",
-    "MINT_CONTRACT_ADDRESS": "0x0AB754254d7243315FFFDC363a6A0997aD9c3118",
-    "MEDIA_URL": "https://plottablesv3-goerli.s3.amazonaws.com",
-    "TOKEN_URL": "https://token.staging.artblocks.io",
-    "GENERATOR_URL": "https://generator-staging-goerli.artblocks.io",
-    "EDIT_PROJECT_URL": "https://artist-staging.artblocks.io/engine/fullyonchain/projects"
+
   }
 ]
