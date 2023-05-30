@@ -23,7 +23,7 @@ const ProjectPreview = ({project, width=280, showDescription=false}: Props) => {
 
   const token = project?.tokens[0]
   return (
-    <Box>
+    <Box sx={{border: '1px solid rgba(0, 0, 0, .1)', flexDirection: 'column', justifyContent: 'space-between', fontFamily: 'niveau-grotesk, sans-serif', transition: 'all .2s', display: 'flex', position: 'relative', "&:hover": {backgroundColor: 'rgba(13, 16, 20, .1)', transform: 'scale(1.01618)', boxShadow: '0 2px 5px rgba(0, 0, 0, .2)'}}}>
       <Box>
         <Link href={`/project/${project.contract.id}/${project.projectId}`} underline="hover">
           <Typography variant="h1" fontSize={36}>
